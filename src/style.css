@@ -52,6 +52,7 @@ section {
     padding: 5px;
     background: #fff;
     color: 	rgba(0, 0, 0, 0.7);
+    cursor: pointer;
 }
 #tech #trusted {
     height: 40%;
@@ -81,6 +82,13 @@ footer nav * {
     margin: 0 2px;
 }
 
+footer a {
+    font-size: x-large;
+}
+footer a i:hover {
+    color: #278389;
+}
+
 @media screen and (max-width: 767px) {
     #header-cover .row {
         display: block;
@@ -94,5 +102,8 @@ footer nav * {
     }
     #trusted a img {
         width: 70px;
+    }
+    .btn {
+        margin-top: 12vh;
     }
 }
